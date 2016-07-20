@@ -1,0 +1,19 @@
+{
+  "name" : "imsglobal/rating",
+  "version" : "2.0.0",
+  "description": "A sample LTI Tool Provider application",
+  "type" : "project",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Stephen Vickers",
+      "email": "svickers@imsglobal.org"
+    }
+  ],
+  "support" : {
+    "docs" : "https://github.com/IMSGlobal/LTI-Sample-Tool-Provider-PHP"
+  },
+  "require" : {
+    "IMSGlobal/LTI" : "^3.0.0"
+  }
+}
