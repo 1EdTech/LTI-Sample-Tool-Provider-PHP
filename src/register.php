@@ -1,5 +1,5 @@
 <?php
-//**
+/**
  * rating - Rating: an example LTI tool provider
  *
  * @author  Stephen P Vickers <svickers@imsglobal.org>
