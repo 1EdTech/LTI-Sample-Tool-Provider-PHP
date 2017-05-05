@@ -128,7 +128,7 @@
     if ($ok && !table_exists($db, $prefix . DataConnector\DataConnector::NONCE_TABLE_NAME)) {
       $sql = "CREATE TABLE {$prefix}" . DataConnector\DataConnector::NONCE_TABLE_NAME . ' (' .
              'consumer_pk int(11) NOT NULL, ' .
-             'value varchar(32) NOT NULL, ' .
+             'value varchar(64) NOT NULL, ' .
              'expires datetime NOT NULL, ' .
              'PRIMARY KEY (consumer_pk, value))';
       $ok = $db->exec($sql) !== FALSE;
